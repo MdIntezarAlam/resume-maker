@@ -1,0 +1,55 @@
+.homepage_container {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: 10% 10%;
+    background-size: cover;
+    opacity: 1;
+    position: fixed;
+    background-image: url("../image/clg.jpg");
+}
+
+.homepage_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading_1 {
+    padding-top: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.headinh_2 {
+    margin-top: 20px;
+    color: rgb(91, 252, 16);
+}
+
+.get_started {
+    padding-top: 40px;
+    /* margin-top: 80px; */
+}
+
+.getstarted_btn {
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: blue;
+    /* margin-top: 70px; */
+    margin-top: 110px;
+}
+
+.resume_maker {
+    font-size: 60px;
+    margin-top: 40px;
+    color: aqua;
+    opacity: 1;
+}
