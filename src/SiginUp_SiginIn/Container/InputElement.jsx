@@ -10,6 +10,7 @@ const InputElement = ({ name, type, placeholder, value, onChange, error }) => {
                 value={value}
                 onChange={onChange}
                 placeholder={placeholder}
+                autoComplete="off"
                 className='reg_input' />
                 {error && <span className='error'>{error}</span>}
         </div>
